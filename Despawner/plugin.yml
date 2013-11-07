@@ -1,4 +1,4 @@
-name: Despawner
+name: Mob Despawner
 main: someguy.despawner.Despawner
 version: 0.01a
 author: Someguyfromcrowd
