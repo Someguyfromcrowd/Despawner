@@ -1,0 +1,16 @@
+name: Despawner
+main: someguy.despawner.Despawner
+version: 0.01a
+author: Someguyfromcrowd
+
+commands:
+  despawn:
+    description: Despawns mobs
+    usage: /despawn radius [flag] or /despawn radius x z [flag] or /despawn radius x z world [flag]
+    permission: despawner.use
+    permission-message: You don't have permission to do that!
+
+permissions:
+  despawner.use:
+    description: Enalbes usage of the Despawner
+    default: op
